@@ -3,7 +3,7 @@ import { getAllGames } from '@/lib/data';
 import siteData from '@/data/site.json';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = siteData.url || 'https://kobilanstudios.com';
+  const baseUrl = siteData.url || 'https://kobilanstudios.vercel.app';
 
   const staticRoutes = [
     {

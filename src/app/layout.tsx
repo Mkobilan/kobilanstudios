@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const cinzel = Cinzel({ subsets: ["latin"], variable: "--font-cinzel" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://kobilanstudios.com"),
+  metadataBase: new URL("https://kobilanstudios.vercel.app"),
   title: {
     default: "Kobilan Studios | Dark Fantasy Game Design & World Building",
     template: "%s | Kobilan Studios"
@@ -28,12 +28,12 @@ export const metadata: Metadata = {
     "Vampire RPG pre-production",
     "Manhattan 1626 Game Design"
   ],
-  authors: [{ name: "Matthew Kobilan", url: "https://kobilanstudios.com" }],
+  authors: [{ name: "Matthew Kobilan", url: "https://kobilanstudios.vercel.app" }],
   creator: "Matthew Kobilan",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://kobilanstudios.com",
+    url: "https://kobilanstudios.vercel.app",
     siteName: "Kobilan Studios",
     title: "Kobilan Studios | Dark Fantasy Game Design & World Building",
     description: "Explore the game design portfolio of Matthew Kobilan, featuring the historical dark-fantasy vampire concept 'New Amsterdam'.",
@@ -79,7 +79,7 @@ export default function RootLayout({
     "@type": "Person",
     "name": "Matthew Kobilan",
     "jobTitle": ["Game Designer", "World Builder", "Narrative Designer", "Concept Designer"],
-    "url": "https://kobilanstudios.com",
+    "url": "https://kobilanstudios.vercel.app",
     "knowsAbout": [
       "Game Design",
       "World Building",
@@ -91,7 +91,7 @@ export default function RootLayout({
       "@type": "Brand",
       "name": "Kobilan Studios",
       "slogan": "Crafting Worlds. Designing Legends.",
-      "logo": "https://kobilanstudios.com/images/logo.png"
+      "logo": "https://kobilanstudios.vercel.app/images/logo.png"
     }
   };
 

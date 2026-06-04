@@ -79,12 +79,12 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
     "publisher": {
       "@type": "Organization",
       "name": "Kobilan Studios",
-      "url": "https://kobilanstudios.com"
+      "url": "https://kobilanstudios.vercel.app"
     },
     "inLanguage": "English",
     "applicationCategory": "Game",
     "headline": game.subtitle,
-    "image": game.hero ? `https://kobilanstudios.com${game.hero}` : undefined
+    "image": game.hero ? `https://kobilanstudios.vercel.app${game.hero}` : undefined
   };
 
   return (

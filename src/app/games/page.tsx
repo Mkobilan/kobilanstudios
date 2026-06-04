@@ -18,11 +18,11 @@ export default function GamesPage() {
     "@type": "CollectionPage",
     "name": "Kobilan Studios Game Projects Portfolio",
     "description": "A collection of game design documents and pre-production concepts by Matthew Kobilan.",
-    "url": "https://kobilanstudios.com/games",
+    "url": "https://kobilanstudios.vercel.app/games",
     "isPartOf": {
       "@type": "WebSite",
       "name": "Kobilan Studios",
-      "url": "https://kobilanstudios.com"
+      "url": "https://kobilanstudios.vercel.app"
     },
     "about": {
       "@type": "Person",
@@ -33,7 +33,7 @@ export default function GamesPage() {
       "name": game.title,
       "description": game.tagline,
       "genre": game.genre,
-      "url": `https://kobilanstudios.com/games/${game.slug}`
+      "url": `https://kobilanstudios.vercel.app/games/${game.slug}`
     }))
   };
 

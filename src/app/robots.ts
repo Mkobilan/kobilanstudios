@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import siteData from '@/data/site.json';
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = siteData.url || 'https://kobilanstudios.com';
+  const baseUrl = siteData.url || 'https://kobilanstudios.vercel.app';
 
   return {
     rules: [
