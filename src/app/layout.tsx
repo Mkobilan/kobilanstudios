@@ -63,6 +63,9 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1
     }
+  },
+  verification: {
+    google: "wnwX0v0OGT7E25CuYA6r3_NjExggVU9PFITJXnpMp8U",
   }
 };
 
@@ -95,6 +98,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${cinzel.variable} dark`}>
       <head>
+        <meta name="google-site-verification" content="wnwX0v0OGT7E25CuYA6r3_NjExggVU9PFITJXnpMp8U" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

@@ -17,53 +17,30 @@ export default function ContactPage() {
           <h1 className="text-4xl font-serif text-[var(--text-primary)] mb-2">
             <span className="text-[var(--accent-blood)]">SUMMON</span> ME
           </h1>
-          <p className="text-[var(--text-secondary)]">Interested in collaborating or reviewing my portfolio? Send a message.</p>
+          <p className="text-[var(--text-secondary)]">Interested in collaborating or reviewing my portfolio?</p>
         </div>
 
-        <form className="space-y-6">
-          <div>
-            <label htmlFor="name" className="block text-sm font-medium text-[var(--text-secondary)] mb-2 uppercase tracking-wider">Your Name</label>
-            <input 
-              type="text" 
-              id="name" 
-              className="w-full bg-[var(--bg-secondary)] border border-[var(--border-subtle)] rounded px-4 py-3 text-[var(--text-primary)] focus:outline-none focus:border-[var(--accent-gold)] transition-colors"
-              placeholder="Enter your name"
-            />
+        <div className="text-center py-8">
+          <div className="mb-6">
+            <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-[var(--accent-blood)]/10 border border-[var(--accent-blood)]/30 flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-7 text-[var(--accent-gold)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+              </svg>
+            </div>
+            <p className="text-[var(--text-secondary)] text-sm uppercase tracking-widest mb-4">Reach out directly</p>
+            <a 
+              href="mailto:matthew.kobilan@gmail.com" 
+              className="text-[var(--accent-gold)] hover:text-[var(--accent-gold-light)] text-lg md:text-xl tracking-wider transition-colors font-serif"
+            >
+              matthew.kobilan@gmail.com
+            </a>
           </div>
-          
-          <div>
-            <label htmlFor="email" className="block text-sm font-medium text-[var(--text-secondary)] mb-2 uppercase tracking-wider">Your Email</label>
-            <input 
-              type="email" 
-              id="email" 
-              className="w-full bg-[var(--bg-secondary)] border border-[var(--border-subtle)] rounded px-4 py-3 text-[var(--text-primary)] focus:outline-none focus:border-[var(--accent-gold)] transition-colors"
-              placeholder="Enter your email"
-            />
-          </div>
-          
-          <div>
-            <label htmlFor="message" className="block text-sm font-medium text-[var(--text-secondary)] mb-2 uppercase tracking-wider">Your Message</label>
-            <textarea 
-              id="message" 
-              rows={5}
-              className="w-full bg-[var(--bg-secondary)] border border-[var(--border-subtle)] rounded px-4 py-3 text-[var(--text-primary)] focus:outline-none focus:border-[var(--accent-gold)] transition-colors resize-none"
-              placeholder="What kind of game are we building?"
-            ></textarea>
-          </div>
-          
-          <button 
-            type="button" 
-            className="w-full py-4 bg-[var(--accent-blood)]/10 hover:bg-[var(--accent-blood)] text-[var(--text-primary)] border border-[var(--accent-blood)] rounded uppercase tracking-widest font-serif transition-colors"
-          >
-            Send Message
-          </button>
-        </form>
+        </div>
 
-        <div className="mt-12 text-center border-t border-[var(--border-subtle)] pt-8">
-          <p className="text-[var(--text-secondary)] mb-4">Or reach out directly at:</p>
-          <a href="mailto:contact@kobilanstudios.com" className="text-[var(--accent-gold)] hover:text-[var(--text-primary)] text-lg tracking-wider transition-colors">
-            contact@kobilanstudios.com
-          </a>
+        <div className="border-t border-[var(--border-subtle)] pt-8 text-center">
+          <p className="text-[var(--text-secondary)] text-sm italic">
+            Whether you have a project in mind, want to discuss game design, or simply want to connect — I&apos;d love to hear from you.
+          </p>
         </div>
       </div>
     </div>
