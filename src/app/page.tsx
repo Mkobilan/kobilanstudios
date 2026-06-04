@@ -14,6 +14,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Kobilan Studios | Dark Fantasy Game Design & World Building",
   description: "Explore Kobilan Studios, a narrative-driven game design portfolio by Matthew Kobilan showcasing Game Design Documents, Story Bibles, and dark fantasy world building.",
+  verification: {
+    google: "wnwX0v0OGT7E25CuYA6r3_NjExggVU9PFITJXnpMp8U",
+  },
 };
 
 export default function Home() {

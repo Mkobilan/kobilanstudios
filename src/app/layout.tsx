@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Cinzel } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
+
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const cinzel = Cinzel({ subsets: ["latin"], variable: "--font-cinzel" });
@@ -113,6 +115,7 @@ export default function RootLayout({
         </header>
         <main className="flex-grow">
           {children}
+          <Analytics />
         </main>
         <footer className="border-t border-[var(--border-subtle)] bg-[var(--bg-secondary)] py-8 mt-12">
           <div className="container mx-auto px-4 text-center">
