@@ -1,0 +1,18 @@
+{
+  "slug": "new-amsterdam",
+  "title": "New Amsterdam",
+  "subtitle": "An Open-World Action-RPG",
+  "genre": "Open-World Action-RPG / Dark Historical Fiction",
+  "platforms": ["PlayStation 5", "Xbox Series X|S"],
+  "setting": "Manhattan Island, New York City — 1626 to Present Day",
+  "status": "Concept / Pre-Production",
+  "tagline": "You cannot leave. You cannot die. You can only watch — and feed.",
+  "author": "Matthew Kobilan",
+  "version": "1.0",
+  "date": "June 4, 2025",
+  "rating": "M (Mature 17+)",
+  "thumbnail": "/images/games/new-amsterdam/thumbnail.png",
+  "hero": "/images/games/new-amsterdam/hero.png",
+  "color": "#8B0000",
+  "accentColor": "#B8860B"
+}

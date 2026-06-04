@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-bg-primary: #0A0A0F;
+  --color-bg-secondary: #12121A;
+  --color-bg-elevated: #1A1A2E;
+  --color-accent-blood: #8B0000;
+  --color-accent-crimson: #A52A2A;
+  --color-accent-gold: #B8860B;
+  --color-accent-gold-light: #F5DEB3;
+  --color-text-primary: #E8E0D4;
+  --color-text-secondary: #9B8E7E;
+  --color-text-accent: #F5DEB3;
+  --color-border-subtle: #2A2A3E;
+
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Cinzel', serif;
+}
+
+@layer base {
+  :root {
+    --bg-primary: #0A0A0F;
+    --bg-secondary: #12121A;
+    --bg-elevated: #1A1A2E;
+    --accent-blood: #8B0000;
+    --accent-crimson: #A52A2A;
+    --accent-gold: #B8860B;
+    --accent-gold-light: #F5DEB3;
+    --text-primary: #E8E0D4;
+    --text-secondary: #9B8E7E;
+    --text-accent: #F5DEB3;
+    --border-subtle: #2A2A3E;
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', serif;
+  }
+}

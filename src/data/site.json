@@ -1,0 +1,11 @@
+{
+  "name": "Kobilan Studios",
+  "url": "https://kobilanstudios.com",
+  "tagline": "Crafting Worlds. Designing Legends.",
+  "description": "An independent game design studio focused on creating immersive, narrative-driven experiences that blend historical authenticity with dark fantasy.",
+  "author": "Matthew Kobilan",
+  "roles": ["Game Designer", "World Builder", "Story Architect", "Concept Designer"],
+  "socialLinks": {
+    "email": "contact@kobilanstudios.com"
+  }
+}
