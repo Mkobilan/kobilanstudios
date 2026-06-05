@@ -1,0 +1,18 @@
+{
+  "slug": "lucious",
+  "title": "Lucious",
+  "subtitle": "An Open-World Action-Adventure RPG",
+  "genre": "Open-World Action-Adventure RPG",
+  "platforms": ["PlayStation 5", "Xbox Series X|S"],
+  "setting": "A fantasy world with distinct geographic regions",
+  "status": "Concept / Pre-Production",
+  "tagline": "\"He had nothing. He inherited everything. Now the world wants it back — and the Reapers want him dead.\"",
+  "author": "Matthew Kobilan",
+  "version": "1.0",
+  "date": "June 4, 2025",
+  "rating": "M (Mature 17+)",
+  "thumbnail": "/images/games/lucious/thumbnail.png",
+  "hero": "/images/games/lucious/hero.png",
+  "color": "#0A2342",
+  "accentColor": "#C89B3C"
+}
