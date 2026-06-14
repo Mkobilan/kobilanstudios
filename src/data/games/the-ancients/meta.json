@@ -1,0 +1,18 @@
+{
+  "slug": "the-ancients",
+  "title": "The Ancients",
+  "subtitle": "An Open-World Action RPG of Lost Civilizations, Ancient Prophecy, and the Last Prince of Atlantis",
+  "genre": "Open-World Action RPG / Action-Adventure",
+  "platforms": ["PC", "PlayStation 5", "Xbox Series X"],
+  "setting": "A mythologized pre-flood Earth, circa 11,000 BCE",
+  "status": "Concept / Pre-Production",
+  "tagline": "Giant trees that pierce the clouds. Crystal towers humming with etheric energy. A world ruled by gods who walk among men. And a young prince who has seven weeks to save it all before the ocean swallows everything.",
+  "author": "Matthew Kobilan",
+  "version": "1.0",
+  "date": "2025",
+  "rating": "RP (Rating Pending)",
+  "thumbnail": "/images/games/the-ancients/thumbnail.png",
+  "hero": "/images/games/the-ancients/hero.png",
+  "color": "#1C3F60",
+  "accentColor": "#D4AF37"
+}
